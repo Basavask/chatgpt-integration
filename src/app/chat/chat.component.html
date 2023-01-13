@@ -1,0 +1,7 @@
+<div>
+  <input [(ngModel)]="inputData" placeholder="Type your message here..." />
+  <button (click)="submit()">Submit</button>
+  <div *ngIf="response">
+    <p>{{ response }}</p>
+  </div>
+</div>
